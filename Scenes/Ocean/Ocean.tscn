@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://biwbnqsa2nuw" path="res://Assets/Plane.png" id="3_t11xa"]
 [ext_resource type="Texture2D" uid="uid://djmtulaoq5mij" path="res://Assets/Helicopter.png" id="4_4wd1y"]
 [ext_resource type="AudioStream" uid="uid://bfs1jatnayjp0" path="res://Assets/eating.wav" id="5_fyc3p"]
+[ext_resource type="Texture2D" uid="uid://dypt20xyov7mi" path="res://Assets/Carrier.png" id="6_t11xa"]
 
 [node name="Ocean" type="Node2D" unique_id=1579959375]
 script = ExtResource("1_y20wh")
@@ -18,10 +19,14 @@ position = Vector2(128, 285)
 texture = ExtResource("3_t11xa")
 
 [node name="Helicopter" type="Sprite2D" parent="." unique_id=224109609]
-position = Vector2(1230, 571)
+position = Vector2(290, 95)
 rotation = 1.5707964
 texture = ExtResource("4_4wd1y")
 
 [node name="EatingSound" type="AudioStreamPlayer" parent="." unique_id=1918691381]
 stream = ExtResource("5_fyc3p")
 volume_db = -15.0
+
+[node name="Carrier" type="Sprite2D" parent="." unique_id=420712724]
+position = Vector2(834, 287)
+texture = ExtResource("6_t11xa")
